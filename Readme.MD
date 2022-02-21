@@ -3,7 +3,7 @@
 
 ## Consideraciones generales :octocat:
 
-* El programa corre bien e implementé los menús de la forma más lógica posible según el enunciado, sin embargo, **carece de opción "volver"**.
+* El programa corre bien e implementé los menús de la forma más lógica posible.
 
 * Es relevante notar que cuando se crea o se carga una partida, el primer menú de juego carece de opción "guardar partida", ya que no existe información relevante para guardar en ese instante. Sin embargo, **al descubrir una baldosa, inmediatamente se otorga esa opción**.
 
@@ -28,15 +28,7 @@ Como se observa, las últimas dos cosas son las únicas que varían en el tiempo
 
 * **¿Cómo funciona el programa?**
   * El código básicamente crea un **tablero completo** con todas las 'L' y los números correspondientes y un **tablero de juego** vacío. Cuando se selecciona una posición que pertenezca a "_death_" se cae en un lego y se pierde. Por otro lado, si no se cae en un lego, se toma esa posición del tablero completo y se reemplaza en el tablero de juego, siendo este último el que se imprime en pantalla.
-
-
-### Cosas implementadas y no implementadas :white_check_mark: :x:
-
-* **Inicio del programa**: Hecha completa (considerando que es lógica la asunción respecto a la opción de "guardar partida").
-* **Flujo del Juego**: Sólo me faltó implementar la opción "volver atrás".
-* **Término del Juego**: Hecha completa.
-* **General**: Hecha completa.
-* **Bonus**: No realizado.
+  * 
 
 ## Ejecución :computer:
 * El módulo principal de la tarea a ejecutar es  ```main.py```. 
